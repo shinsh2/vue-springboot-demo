@@ -33,4 +33,4 @@ logging:
     '[com.example]': debug
     org.hibernate.SQL: debug
     org.hibernate.type: trace
-    org.springframework: debug
+    org.springframework: warn
