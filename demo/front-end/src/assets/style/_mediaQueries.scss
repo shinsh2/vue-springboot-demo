@@ -1,0 +1,7 @@
+$bp: 540px;
+
+@mixin res {
+  @media screen and (min-width: #{$bp}) {
+    @content;
+  }
+}
