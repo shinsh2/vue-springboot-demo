@@ -5,10 +5,10 @@ module.exports = defineConfig({
   indexPath: '../templates/index.html',
   // outputDir: '../src/main/webapp'
   devServer: {
-    port: 8080,
+    port: 8081,
     proxy: {
-      '/api': {
-        target: 'http://localhost:8080'
+      '/': {
+       target: 'http://localhost:8080'
       }
     }
   },
