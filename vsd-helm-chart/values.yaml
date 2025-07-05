@@ -7,7 +7,7 @@ replicaCount: 1
 
 # This sets the container image more information can be found here: https://kubernetes.io/docs/concepts/containers/images/
 image:
-  repository: ncp-cr.kr.ncr.ntruss.com/vue-sprinboot-demo
+  repository: ncp-cr.kr.ncr.ntruss.com/vue-springboot-demo
   # This sets the pull policy for images.
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
@@ -17,8 +17,8 @@ image:
 imagePullSecrets: [{name: ncp-k8s-image-pull-secrets-2}]
 
 # This is to override the chart name.
-nameOverride: "vue-sprinboot-demo"
-fullnameOverride: "vue-sprinboot-demo"
+nameOverride: "vue-springboot-demo"
+fullnameOverride: "vue-springboot-demo"
 
 # This section builds out the service account more information can be found here: https://kubernetes.io/docs/concepts/security/service-accounts/
 serviceAccount:
